@@ -16,11 +16,11 @@ COLOR - VARCHAR(15) - NULL;
 
 ANNO - YEAR - NULL;
 
-N.TELAIO - CHAR(17) - UNIQUE , NOT_NULL;
+N.TELAIO - CHAR(17) - UNIQUE , NOT_NULL; (ho usato CHAR perchè il n.telaio è sempre 17 ed impossibile trovarne due uguali per questo ho aggiunto anche UNIQUE)
 
 KM-PERCORSI - MEDIUMTEXT - NOT_NULL; 
 
-TARGA - CHAR(7) - UNIQUE, NOT_NULL;
+TARGA - CHAR(7) - UNIQUE, NOT_NULL; ( leggi str.19)
 
 PREZZO - VARCHAR(6) - NULL;
 
